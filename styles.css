@@ -1,3 +1,23 @@
+
+html,
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    overflow-x: hidden;
+    background: #fff;
+}
+
+body.ak-wrap {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.ak-wrap {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 /* ================================================================
    AEKAMBER SOLUTIONS — ODOO STATIC THEME
    Brand: Navy #1a2a5e | Amber #f59e0b | Font: Poppins
