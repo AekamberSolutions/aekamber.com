@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Aekamber Solutions</title>
+  <meta name="description" content="Get in touch with Aekamber Solutions. We respond within 24 hours. Call +1 (209) 326-1479 or email info@aekamber.com.">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <meta property="og:image" content="./opengraph.jpg">
+</head>
+<body class="ak-wrap">
+
+<!-- ═══════════════════════════ NAVBAR ═══════════════════════════ -->
+<nav id="ak-navbar" class="ak-navbar">
+  <div class="ak-container ak-navbar-inner">
+    <a href="./index.html" class="ak-logo-link">
+      <img src="./images/logo-white.png"  alt="Aekamber Solutions" class="ak-logo-img logo-light">
+      <img src="./images/logo-inline.png" alt="Aekamber Solutions" class="ak-logo-img logo-dark">
+    </a>
+    <div class="ak-nav-links">
+      <a href="./index.html"    class="ak-nav-link">Home</a>
+      <a href="./services.html" class="ak-nav-link">Services</a>
+      <a href="./about.html"    class="ak-nav-link">About</a>
+      <a href="./contact.html"  class="ak-nav-link active">Contact</a>
+      <a href="./contact.html"  class="ak-btn ak-btn-amber" style="margin-left:12px">Get a Quote</a>
+    </div>
+    <button class="ak-menu-btn" id="ak-menu-btn" aria-label="Open menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</nav>
+<div class="ak-overlay" id="ak-overlay"></div>
+<div class="ak-mobile-menu" id="ak-mobile-menu">
+  <div class="ak-mobile-menu-header">
+    <img src="./images/logo-inline.png" alt="Aekamber Solutions" style="height:40px;width:auto">
+    <button class="ak-mobile-close" id="ak-mobile-close">✕</button>
+  </div>
+  <div class="ak-mobile-nav">
+    <a href="./index.html"    class="ak-mobile-link">Home</a>
+    <a href="./services.html" class="ak-mobile-link">Services</a>
+    <a href="./about.html"    class="ak-mobile-link">About</a>
+    <a href="./contact.html"  class="ak-mobile-link">Contact</a>
+  </div>
+  <div class="ak-mobile-footer">
+    <a href="./contact.html" class="ak-btn ak-btn-amber ak-btn-full">Get a Free Quote</a>
+    <a href="tel:+12093261479" class="ak-mobile-phone">📞 +1 (209) 326-1479</a>
+  </div>
+</div>
+
+<!-- ═══════════════════════════ PAGE BANNER ══════════════════════ -->
+<div class="ak-page-banner" style="padding-bottom:48px">
+  <div class="ak-container">
+    <div class="ak-banner-badge"><span class="ak-badge-dot"></span> Reach Out</div>
+    <h1>Get In Touch</h1>
+    <p>We respond within hours, not days.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════ QUICK BAR ════════════════════════ -->
+<div class="ak-quick-bar">
+  <div class="ak-container">
+    <div class="ak-quick-inner">
+      <a href="tel:+12093261479" class="ak-quick-item">
+        <div class="ak-quick-icon">📞</div>
+        +1 (209) 326-1479
+      </a>
+      <div class="ak-quick-sep"></div>
+      <a href="mailto:info@aekamber.com" class="ak-quick-item">
+        <div class="ak-quick-icon">✉️</div>
+        info@aekamber.com
+      </a>
+      <div class="ak-quick-sep"></div>
+      <div class="ak-quick-item" style="cursor:default">
+        <div class="ak-quick-icon">⚡</div>
+        <span class="ak-quick-text">Quote within <strong>24 hours</strong> — guaranteed</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════ CONTACT FORM + SIDEBAR ══════════ -->
+<section class="ak-section ak-bg-gray ak-grid-bg">
+  <div class="ak-container">
+    <div class="ak-contact-wrap">
+
+      <!-- FORM -->
+      <div class="ak-fade">
+        <div class="ak-form-card">
+          <h2 class="ak-form-title">Send a Message</h2>
+          <p class="ak-form-sub">Fill out the form below and our team will respond within hours.</p>
+
+          <!-- SUCCESS STATE -->
+          <div id="ak-form-success" class="ak-success-box">
+            <div style="font-size:64px;margin-bottom:8px">✅</div>
+            <h3>Message Sent!</h3>
+            <p>Thank you for reaching out. We'll be in touch within 24 hours.</p>
+            <button class="ak-btn ak-btn-amber ak-form-reset">Send Another Message</button>
+          </div>
+
+          <!-- FORM FIELDS -->
+          <div id="ak-form-fields">
+            <form id="ak-contact-form" novalidate>
+              <div class="ak-field">
+                <label class="ak-label" for="ak-name">Full Name *</label>
+                <input id="ak-name" class="ak-input" type="text" placeholder="John Doe" required>
+              </div>
+              <div class="ak-form-row">
+                <div class="ak-field">
+                  <label class="ak-label" for="ak-email">Email Address *</label>
+                  <input id="ak-email" class="ak-input" type="email" placeholder="john@company.com" required>
+                </div>
+                <div class="ak-field">
+                  <label class="ak-label" for="ak-phone">Phone (Optional)</label>
+                  <input id="ak-phone" class="ak-input" type="tel" placeholder="+1 (555) 000-0000">
+                </div>
+              </div>
+              <div class="ak-field">
+                <label class="ak-label" for="ak-service">Service Required *</label>
+                <select id="ak-service" class="ak-select" required>
+                  <option value="" disabled selected>Select a service</option>
+                  <option value="pv">Solar PV Design &amp; Permitting</option>
+                  <option value="ess">ESS Design &amp; Permitting</option>
+                  <option value="ev">EV Charging Design &amp; Permitting</option>
+                  <option value="pe">PE Stamp Services</option>
+                  <option value="cad">CAD Design Services</option>
+                  <option value="bim">BIM Services</option>
+                  <option value="proposal">Solar Proposal Design</option>
+                  <option value="consulting">Engineering Consulting</option>
+                  <option value="web">Website Building</option>
+                  <option value="marketing">Digital Marketing</option>
+                  <option value="other">Other / Not Listed</option>
+                </select>
+              </div>
+              <div class="ak-field">
+                <label class="ak-label" for="ak-message">Project Details *</label>
+                <textarea id="ak-message" class="ak-textarea" placeholder="Tell us about your project — system size, location, timeline, or any specific requirements..." required></textarea>
+              </div>
+              <button type="submit" class="ak-btn ak-btn-amber ak-btn-full" style="height:56px;font-size:16px">
+                Send Message — Get a Quote
+              </button>
+              <p class="ak-form-note">We respond within 24 hours · No spam, ever.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- SIDEBAR -->
+      <div class="ak-sidebar ak-fade">
+        <!-- Contact Info -->
+        <div class="ak-info-card">
+          <div class="ak-info-title">Contact Info</div>
+          <a href="tel:+12093261479" class="ak-info-item">
+            <div class="ak-info-icon">📞</div>
+            <div><div class="ak-info-sub">Phone</div><div class="ak-info-val">+1 (209) 326-1479</div></div>
+          </a>
+          <a href="mailto:info@aekamber.com" class="ak-info-item">
+            <div class="ak-info-icon">✉️</div>
+            <div><div class="ak-info-sub">Email</div><div class="ak-info-val">info@aekamber.com</div></div>
+          </a>
+          <div class="ak-info-item">
+            <div class="ak-info-icon">🌐</div>
+            <div><div class="ak-info-sub">Website</div><div class="ak-info-val">aekamber.com</div></div>
+          </div>
+          <div class="ak-info-item">
+            <div class="ak-info-icon">🕐</div>
+            <div><div class="ak-info-sub">Response Time</div><div class="ak-info-val">Within 24 hours</div></div>
+          </div>
+        </div>
+
+        <!-- Rush Card -->
+        <div class="ak-rush-card">
+          <div class="ak-rush-icon">⚡</div>
+          <div class="ak-rush-title">Need it urgent?</div>
+          <p class="ak-rush-desc">Rush delivery is available for time-sensitive projects. Same-day turnaround on most permit packages.</p>
+          <a href="tel:+12093261479" class="ak-btn ak-btn-amber ak-btn-full">📞 Call for Rush Orders</a>
+        </div>
+
+        <!-- Countries -->
+        <div class="ak-country-card">
+          <h4>Serving businesses in</h4>
+          <div class="ak-countries">
+            <span>🇺🇸 USA</span>
+            <span style="color:#d1d5db">·</span>
+            <span>🇨🇦 Canada</span>
+            <span style="color:#d1d5db">·</span>
+            <span>🇬🇧 UK</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+<footer class="ak-footer">
+  <div class="ak-footer-border"></div>
+  <div class="ak-prefooter"><div class="ak-container"><div class="ak-prefooter-inner">
+    <div><h3>Ready to get started?</h3><p>Get your permit package delivered in 24 hours.</p></div>
+    <div class="ak-prefooter-btns">
+      <a href="./contact.html" class="ak-btn ak-btn-amber">Get a Free Quote &rarr;</a>
+      <a href="tel:+12093261479" class="ak-btn ak-btn-outline">📞 Call Us</a>
+    </div>
+  </div></div></div>
+  <div class="ak-footer-main"><div class="ak-container">
+    <div class="ak-footer-grid">
+      <div>
+        <img src="./images/logo-white.png" alt="Aekamber Solutions" class="ak-footer-logo">
+        <p class="ak-footer-brand-text">Professional engineering, design, and digital services tailored for B2B clients across USA, Canada, and UK.</p>
+        <div class="ak-social-row"><a href="#" class="ak-social-btn">in</a><a href="#" class="ak-social-btn">𝕏</a><a href="#" class="ak-social-btn">f</a></div>
+      </div>
+      <div class="ak-footer-col"><h4>Quick Links</h4><ul class="ak-footer-link-list"><li><a href="./index.html">Home</a></li><li><a href="./services.html">Services</a></li><li><a href="./about.html">About Us</a></li><li><a href="./contact.html">Contact</a></li></ul></div>
+      <div class="ak-footer-col"><h4>Our Services</h4><ul class="ak-footer-link-list"><li><a href="./services.html">Solar PV Design</a></li><li><a href="./services.html">ESS Design</a></li><li><a href="./services.html">EV Charging</a></li><li><a href="./services.html">PE Stamp Services</a></li><li><a href="./services.html">CAD &amp; BIM</a></li><li><a href="./services.html">Digital Marketing</a></li></ul></div>
+      <div class="ak-footer-col"><h4>Get in Touch</h4>
+        <a href="mailto:info@aekamber.com" class="ak-fc-item"><div class="ak-fc-icon">✉️</div><div><div class="ak-fc-sub">Email</div><div class="ak-fc-val">info@aekamber.com</div></div></a>
+        <a href="tel:+12093261479" class="ak-fc-item"><div class="ak-fc-icon">📞</div><div><div class="ak-fc-sub">Phone</div><div class="ak-fc-val">+1 (209) 326-1479</div></div></a>
+        <div class="ak-fc-item"><div class="ak-fc-icon">🌐</div><div><div class="ak-fc-sub">Serving</div><div class="ak-fc-val">USA • Canada • UK</div></div></div>
+      </div>
+    </div>
+    <div class="ak-footer-bottom">
+      <p>&copy; 2025 Aekamber Solutions. All rights reserved.</p>
+      <p style="color:rgba(255,255,255,0.2);font-size:12px">Engineering &middot; Design &middot; Digital &mdash; One Source.</p>
+    </div>
+  </div></div>
+</footer>
+
+<div class="ak-float" id="ak-float"><a href="tel:+12093261479" class="ak-float-btn"><span class="ak-float-phone">📞<span class="ak-float-dot"></span></span><span class="ak-hide-mob">+1 (209) 326-1479</span></a></div>
+<script src="./script.js"></script>
+</body>
+</html>

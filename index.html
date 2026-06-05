@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aekamber Solutions — Engineering, Design &amp; Digital Services</title>
+  <meta name="description" content="Professional permit design, engineering, and digital services for B2B clients across USA, Canada, and UK.">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <meta property="og:image" content="./opengraph.jpg">
+</head>
+<body class="ak-wrap">
+
+<!-- ═══════════════════════════ NAVBAR ═══════════════════════════ -->
+<nav id="ak-navbar" class="ak-navbar">
+  <div class="ak-container ak-navbar-inner">
+    <a href="./index.html" class="ak-logo-link">
+      <!-- UPDATE logo URLs after uploading to Odoo media library -->
+      <img src="./images/logo-white.png"  alt="Aekamber Solutions" class="ak-logo-img logo-light">
+      <img src="./images/logo-inline.png" alt="Aekamber Solutions" class="ak-logo-img logo-dark">
+    </a>
+    <div class="ak-nav-links">
+      <a href="./index.html"    class="ak-nav-link active">Home</a>
+      <a href="./services.html" class="ak-nav-link">Services</a>
+      <a href="./about.html"    class="ak-nav-link">About</a>
+      <a href="./contact.html"  class="ak-nav-link">Contact</a>
+      <a href="./contact.html"  class="ak-btn ak-btn-amber" style="margin-left:12px">Get a Quote</a>
+    </div>
+    <button class="ak-menu-btn" id="ak-menu-btn" aria-label="Open menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</nav>
+<div class="ak-overlay" id="ak-overlay"></div>
+<div class="ak-mobile-menu" id="ak-mobile-menu">
+  <div class="ak-mobile-menu-header">
+    <img src="./images/logo-inline.png" alt="Aekamber Solutions" style="height:40px;width:auto">
+    <button class="ak-mobile-close" id="ak-mobile-close" aria-label="Close">✕</button>
+  </div>
+  <div class="ak-mobile-nav">
+    <a href="./index.html"    class="ak-mobile-link">Home</a>
+    <a href="./services.html" class="ak-mobile-link">Services</a>
+    <a href="./about.html"    class="ak-mobile-link">About</a>
+    <a href="./contact.html"  class="ak-mobile-link">Contact</a>
+  </div>
+  <div class="ak-mobile-footer">
+    <a href="./contact.html" class="ak-btn ak-btn-amber ak-btn-full">Get a Free Quote</a>
+    <a href="tel:+12093261479" class="ak-mobile-phone">📞 +1 (209) 326-1479</a>
+  </div>
+</div>
+
+<!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+<section class="ak-hero">
+  <!-- Carousel slides — UPDATE background URLs as needed -->
+  <div class="ak-carousel-slide active" style="background-image:url('https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1920&q=80')"></div>
+  <div class="ak-carousel-slide"        style="background-image:url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1920&q=80')"></div>
+  <div class="ak-carousel-slide"        style="background-image:url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=80')"></div>
+  <div class="ak-hero-overlay"></div>
+  <div class="ak-hero-gradient"></div>
+
+  <div class="ak-container">
+    <div class="ak-hero-content">
+      <div class="ak-hero-badge">
+        <span class="ak-badge-dot"></span>
+        Engineering &amp; Design Services &nbsp;|&nbsp; USA &nbsp;•&nbsp; Canada &nbsp;•&nbsp; UK
+      </div>
+      <h1>One Source.<br><span class="ak-gradient-text">Every Solution.</span></h1>
+      <p class="ak-hero-sub">Professional permit design, engineering, and digital services for businesses across USA, Canada, and UK.</p>
+      <div class="ak-hero-btns">
+        <a href="./contact.html" class="ak-btn ak-btn-amber ak-btn-lg">Get a Free Quote &rarr;</a>
+        <a href="tel:+12093261479" class="ak-btn ak-btn-outline ak-btn-lg">📞 Call Us Now</a>
+      </div>
+      <div class="ak-hero-stats">
+        <div><div class="ak-hero-stat-val">500+</div><div class="ak-hero-stat-lbl">Projects Completed</div></div>
+        <div><div class="ak-hero-stat-val">3</div><div class="ak-hero-stat-lbl">Countries Served</div></div>
+        <div><div class="ak-hero-stat-val">24hr</div><div class="ak-hero-stat-lbl">Turnaround</div></div>
+        <div><div class="ak-hero-stat-val">100%</div><div class="ak-hero-stat-lbl">Accuracy Rate</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carousel dots -->
+  <div class="ak-hero-dots">
+    <button class="ak-dot active" aria-label="Slide 1"></button>
+    <button class="ak-dot"        aria-label="Slide 2"></button>
+    <button class="ak-dot"        aria-label="Slide 3"></button>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ TRUST STRIP ═══════════════════════ -->
+<div class="ak-trust-strip">
+  <div class="ak-trust-fade ak-trust-fade-l"></div>
+  <div class="ak-trust-track">
+    <!-- Repeated 3x for seamless loop -->
+    <span class="ak-trust-item">Solar PV Design</span><span class="ak-trust-item">EV Charging</span><span class="ak-trust-item">CAD &amp; BIM</span><span class="ak-trust-item">PE Stamps</span><span class="ak-trust-item">ESS Design</span><span class="ak-trust-item">Permit Ready</span><span class="ak-trust-item">Engineering Consulting</span><span class="ak-trust-item">Digital Marketing</span><span class="ak-trust-item">Solar Proposals</span><span class="ak-trust-item">AHJ Compliant</span><span class="ak-trust-item">24hr Turnaround</span><span class="ak-trust-item">Electrical Systems</span>
+    <span class="ak-trust-item">Solar PV Design</span><span class="ak-trust-item">EV Charging</span><span class="ak-trust-item">CAD &amp; BIM</span><span class="ak-trust-item">PE Stamps</span><span class="ak-trust-item">ESS Design</span><span class="ak-trust-item">Permit Ready</span><span class="ak-trust-item">Engineering Consulting</span><span class="ak-trust-item">Digital Marketing</span><span class="ak-trust-item">Solar Proposals</span><span class="ak-trust-item">AHJ Compliant</span><span class="ak-trust-item">24hr Turnaround</span><span class="ak-trust-item">Electrical Systems</span>
+    <span class="ak-trust-item">Solar PV Design</span><span class="ak-trust-item">EV Charging</span><span class="ak-trust-item">CAD &amp; BIM</span><span class="ak-trust-item">PE Stamps</span><span class="ak-trust-item">ESS Design</span><span class="ak-trust-item">Permit Ready</span><span class="ak-trust-item">Engineering Consulting</span><span class="ak-trust-item">Digital Marketing</span><span class="ak-trust-item">Solar Proposals</span><span class="ak-trust-item">AHJ Compliant</span><span class="ak-trust-item">24hr Turnaround</span><span class="ak-trust-item">Electrical Systems</span>
+  </div>
+  <div class="ak-trust-fade ak-trust-fade-r"></div>
+</div>
+
+<!-- ═══════════════════════════ SERVICES TABS ═══════════════════ -->
+<section class="ak-section ak-grid-bg">
+  <div class="ak-container">
+    <div class="ak-section-header ak-fade">
+      <span class="ak-eyebrow">WHAT WE DO</span>
+      <h2>Everything Your Business Needs</h2>
+      <p>From permit packages to digital marketing — one partner, zero gaps.</p>
+    </div>
+
+    <div class="ak-tabs-group">
+      <div class="ak-tab-list">
+        <button class="ak-tab-btn active" data-tab="permit">Permit &amp; Design</button>
+        <button class="ak-tab-btn" data-tab="engineering">Engineering</button>
+        <button class="ak-tab-btn" data-tab="digital">Digital</button>
+      </div>
+
+      <!-- TAB: Permit & Design -->
+      <div class="ak-tab-panel active" data-panel="permit">
+        <div class="ak-service-card ak-fade">
+          <div class="ak-svc-header"><div class="ak-svc-icon">☀️</div><div class="ak-svc-title">Solar PV Design &amp; Permitting</div></div>
+          <p class="ak-svc-desc">Complete permit-ready solar PV design packages for residential and commercial projects across USA, Canada, and UK — delivered in 24 hours.</p>
+          <ul class="ak-feature-list"><li>Single-line diagrams</li><li>AHJ compliant</li><li>Equipment spec sheets</li><li>Structural calcs</li><li>Free revisions</li><li>24hr turnaround</li></ul>
+          <a href="./contact.html" class="ak-card-link">Get a Quote &rarr;</a>
+        </div>
+        <div class="ak-service-card ak-fade">
+          <div class="ak-svc-header"><div class="ak-svc-icon">🔋</div><div class="ak-svc-title">ESS Design &amp; Permitting</div></div>
+          <p class="ak-svc-desc">Energy storage system design and permit documentation for battery backup and grid-tied solutions, compliant with local and national codes.</p>
+          <ul class="ak-feature-list"><li>Battery sizing calcs</li><li>Grid-tied configs</li><li>Load analysis</li><li>Permit-ready sets</li><li>UL-listed specs</li><li>Utility docs</li></ul>
+          <a href="./contact.html" class="ak-card-link">Get a Quote &rarr;</a>
+        </div>
+        <div class="ak-service-card ak-fade">
+          <div class="ak-svc-header"><div class="ak-svc-icon">⚡</div><div class="ak-svc-title">EV Charging Design &amp; Permitting</div></div>
+          <p class="ak-svc-desc">EV charging station design and permit packages for residential, commercial, and fleet applications — all charging levels covered.</p>
+          <ul class="ak-feature-list"><li>Level 1, 2 &amp; DCFC</li><li>Commercial &amp; fleet</li><li>Panel load analysis</li><li>NEC &amp; IEC compliant</li><li>Code-compliant drawings</li><li>Utility coordination</li></ul>
+          <a href="./contact.html" class="ak-card-link">Get a Quote &rarr;</a>
+        </div>
+        <div class="ak-service-card ak-fade">
+          <div class="ak-svc-header"><div class="ak-svc-icon">🏛️</div><div class="ak-svc-title">PE Stamp Services</div></div>
+          <p class="ak-svc-desc">Licensed Professional Engineer stamp and signature services for solar and electrical projects across all 50 US states — fast and reliable.</p>
+          <ul class="ak-feature-list"><li>All 50 US states</li><li>Wet &amp; digital stamps</li><li>Licensed PEs per state</li><li>48hr turnaround</li><li>Revision support</li><li>Compliance letters</li></ul>
+          <a href="./contact.html" class="ak-card-link">Get a Quote &rarr;</a>
+        </div>
+      </div>
+
+      <!-- TAB: Engineering -->
+      <div class="ak-tab-panel" data-panel="engineering">
+        <div class="ak-service-card ak-fade">
+          <div class="ak-svc-header"><div class="ak-svc-icon">✏️</div><div class="ak-svc-title">CAD Design Services</div></div>
+          <p class="ak-svc-desc">Professional CAD drafting and design for engineering and construction projects — precise, clean, and submission-ready.</p>
+          <ul class="ak-feature-list"><li>AutoCAD &amp; Civil 3D</li><li>As-built documentation</li><li>Construction sets</li><li>Site plan preparation</li><li>Detail drawings</li><li>Fast revision turnaround</li></ul>
+          <a href="./contact.html" class="ak-card-link">Get a Quote &rarr;</a>
+        </div>
+        <div class="ak-service-card ak-fade">
+          <div class="ak-svc-header"><div class="ak-svc-icon">🏗️</div><div class="ak-svc-title">BIM Services</div></div>
+          <p class="ak-svc-desc">Building Information Modeling for construction and engineering projects — clash detection, coordination, and 3D model delivery.</p>
+          <ul class="ak-feature-list"><li>Revit 3D BIM models</li><li>Clash detection</li><li>LOD 100–400</li><li>MEP coordination</li><li>4D scheduling</li><li>IFC export</li></ul>
+          <a href="./contact.html" class="ak-card-link">Get a Quote &rarr;</a>
+        </div>
+        <div class="ak-service-card ak-fade">
+          <div class="ak-svc-header"><div class="ak-svc-icon">📄</div><div class="ak-svc-title">Solar Proposal Design</div></div>
+          <p class="ak-svc-desc">Professional, client-ready solar proposals with system design, savings analysis, and branded presentation that close more deals.</p>
+          <ul class="ak-feature-list"><li>Branded PDF proposals</li><li>Savings analysis</li><li>Performance models</li><li>Financing charts</li><li>Aerial site images</li><li>Editable templates</li></ul>
+          <a href="./contact.html" class="ak-card-link">Get a Quote &rarr;</a>
+        </div>
+        <div class="ak-service-card ak-fade">
+          <div class="ak-svc-header"><div class="ak-svc-icon">🔧</div><div class="ak-svc-title">Engineering Consulting</div></div>
+          <p class="ak-svc-desc">Expert technical consulting for solar, electrical, and construction projects — from code interpretation to peer review.</p>
+          <ul class="ak-feature-list"><li>AHJ code interpretation</li><li>Peer review</li><li>Expert witness reports</li><li>Feasibility studies</li><li>On-call support</li><li>Dispute resolution</li></ul>
+          <a href="./contact.html" class="ak-card-link">Get a Quote &rarr;</a>
+        </div>
+      </div>
+
+      <!-- TAB: Digital -->
+      <div class="ak-tab-panel" data-panel="digital">
+        <div class="ak-service-card ak-fade">
+          <div class="ak-svc-header"><div class="ak-svc-icon">🌐</div><div class="ak-svc-title">Website Building</div></div>
+          <p class="ak-svc-desc">Professional, fast, and conversion-focused websites for small and medium businesses — built to attract and convert your ideal clients.</p>
+          <ul class="ak-feature-list"><li>Mobile-first design</li><li>SEO-optimized</li><li>CMS included</li><li>2–4 week delivery</li><li>Lead capture forms</li><li>Google Analytics</li></ul>
+          <a href="./contact.html" class="ak-card-link">Get a Quote &rarr;</a>
+        </div>
+        <div class="ak-service-card ak-fade">
+          <div class="ak-svc-header"><div class="ak-svc-icon">📣</div><div class="ak-svc-title">Digital Marketing</div></div>
+          <p class="ak-svc-desc">Full-service digital marketing covering SEO, social media, content strategy, and lead generation — backed by data and real results.</p>
+          <ul class="ak-feature-list"><li>Search engine optimization</li><li>Social media mgmt</li><li>Content marketing</li><li>PPC campaigns</li><li>Monthly reports</li><li>Lead gen funnels</li></ul>
+          <a href="./contact.html" class="ak-card-link">Get a Quote &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:40px">
+      <a href="./services.html" class="ak-btn ak-btn-ghost">View All Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ WHY CHOOSE US ═════════════════════ -->
+<section class="ak-section ak-bg-gray">
+  <div class="ak-container">
+    <div class="ak-section-header ak-fade">
+      <span class="ak-eyebrow">WHY AEKAMBER</span>
+      <h2>Built for Excellence</h2>
+      <p>Every detail engineered for B2B clients who demand speed, precision, and reliability.</p>
+    </div>
+    <div class="ak-grid-4">
+      <div class="ak-why-card ak-fade"><span class="ak-why-num">01</span><div class="ak-why-icon">⚡</div><div class="ak-why-stat">24hr</div><div class="ak-why-title">Fast Turnaround</div><p class="ak-why-desc">24–48hr delivery on most permit packages. We move at the speed of your business.</p></div>
+      <div class="ak-why-card ak-fade"><span class="ak-why-num">02</span><div class="ak-why-icon">🎯</div><div class="ak-why-stat">100%</div><div class="ak-why-title">Accurate Deliverables</div><p class="ak-why-desc">Permit-ready, error-free every time. Rigorous in-house QA/QC on every file.</p></div>
+      <div class="ak-why-card ak-fade"><span class="ak-why-num">03</span><div class="ak-why-icon">🌐</div><div class="ak-why-stat">3 Countries</div><div class="ak-why-title">Global Reach</div><p class="ak-why-desc">Serving USA (all 50 states), Canada-wide, and the United Kingdom.</p></div>
+      <div class="ak-why-card ak-fade"><span class="ak-why-num">04</span><div class="ak-why-icon">🗂️</div><div class="ak-why-stat">10+ Services</div><div class="ak-why-title">One Stop Solution</div><p class="ak-why-desc">Engineering, CAD, BIM, PE stamps, and digital — all under one roof.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ STATS BAR ════════════════════════ -->
+<section class="ak-stats-bar">
+  <div class="ak-container">
+    <div class="ak-grid-4">
+      <div class="ak-stat-item ak-fade">
+        <span class="ak-stat-number ak-count-up" data-value="500" data-suffix="+">500+</span>
+        <div class="ak-stat-divider"></div>
+        <div class="ak-stat-label">Projects Completed</div>
+      </div>
+      <div class="ak-stat-item ak-fade">
+        <span class="ak-stat-number ak-count-up" data-value="3" data-suffix="">3</span>
+        <div class="ak-stat-divider"></div>
+        <div class="ak-stat-label">Countries Served</div>
+      </div>
+      <div class="ak-stat-item ak-fade">
+        <span class="ak-stat-number ak-count-up" data-value="100" data-suffix="%">100%</span>
+        <div class="ak-stat-divider"></div>
+        <div class="ak-stat-label">Accuracy Rate</div>
+      </div>
+      <div class="ak-stat-item ak-fade">
+        <span class="ak-stat-number ak-count-up" data-value="24" data-suffix="hr">24hr</span>
+        <div class="ak-stat-divider"></div>
+        <div class="ak-stat-label">Avg. Turnaround</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ TESTIMONIALS ═════════════════════ -->
+<section class="ak-section ak-bg-white">
+  <div class="ak-container">
+    <div class="ak-section-header ak-fade">
+      <span class="ak-eyebrow">CLIENT STORIES</span>
+      <h2>What Our Clients Say</h2>
+      <p>Real results from real B2B clients across the USA, Canada, and UK.</p>
+    </div>
+    <div class="ak-grid-3">
+      <div class="ak-t-card ak-fade">
+        <div class="ak-stars"><span class="ak-star">★</span><span class="ak-star">★</span><span class="ak-star">★</span><span class="ak-star">★</span><span class="ak-star">★</span></div>
+        <p class="ak-t-quote">"Aekamber delivered our solar permit package in under 24 hours — permit-ready and zero AHJ rejections. Absolute game changer for our installs."</p>
+        <div class="ak-t-author">
+          <div class="ak-t-avatar" style="background:linear-gradient(135deg,#2563eb,#1e40af)">J</div>
+          <div><div class="ak-t-name">James T.</div><div class="ak-t-role">Solar Contractor · California, USA</div></div>
+        </div>
+      </div>
+      <div class="ak-t-card ak-fade">
+        <div class="ak-stars"><span class="ak-star">★</span><span class="ak-star">★</span><span class="ak-star">★</span><span class="ak-star">★</span><span class="ak-star">★</span></div>
+        <p class="ak-t-quote">"Their CAD and BIM work is consistently excellent. We've relied on them across 4 states and they never miss. Feels like they're part of our team."</p>
+        <div class="ak-t-author">
+          <div class="ak-t-avatar" style="background:linear-gradient(135deg,#7c3aed,#5b21b6)">P</div>
+          <div><div class="ak-t-name">Priya S.</div><div class="ak-t-role">Project Manager · Texas, USA</div></div>
+        </div>
+      </div>
+      <div class="ak-t-card ak-fade">
+        <div class="ak-stars"><span class="ak-star">★</span><span class="ak-star">★</span><span class="ak-star">★</span><span class="ak-star">★</span><span class="ak-star">★</span></div>
+        <p class="ak-t-quote">"The digital team grew our qualified leads by 40% in one quarter. Real, measurable ROI — not just promises. Highly recommend for any B2B firm."</p>
+        <div class="ak-t-author">
+          <div class="ak-t-avatar" style="background:linear-gradient(135deg,#059669,#065f46)">M</div>
+          <div><div class="ak-t-name">Mark L.</div><div class="ak-t-role">Business Owner · Ontario, Canada</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ HOW IT WORKS ═════════════════════ -->
+<section class="ak-section ak-bg-gray">
+  <div class="ak-container ak-text-center">
+    <div class="ak-section-header ak-fade">
+      <span class="ak-eyebrow">THE PROCESS</span>
+      <h2>How It Works</h2>
+      <p>Simple, fast, and built around your timeline.</p>
+    </div>
+    <div class="ak-steps">
+      <div class="ak-step ak-fade"><div class="ak-step-num">1</div><div class="ak-step-emoji">📋</div><div class="ak-step-title">Submit Details</div><p class="ak-step-desc">Share your project requirements through our contact form or a quick call.</p></div>
+      <div class="ak-step ak-fade"><div class="ak-step-num">2</div><div class="ak-step-emoji">⚙️</div><div class="ak-step-title">We Engineer</div><p class="ak-step-desc">Our expert team designs, drafts, and QA-checks your complete package.</p></div>
+      <div class="ak-step ak-fade"><div class="ak-step-num">3</div><div class="ak-step-emoji">✅</div><div class="ak-step-title">You Deliver</div><p class="ak-step-desc">Receive accurate, permit-ready documents — ready for immediate submission.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ FAQ ══════════════════════════════ -->
+<section class="ak-section ak-bg-white">
+  <div class="ak-container">
+    <div class="ak-section-header ak-fade">
+      <span class="ak-eyebrow">COMMON QUESTIONS</span>
+      <h2>Frequently Asked</h2>
+      <p>Everything you need to know before working with us.</p>
+    </div>
+    <div class="ak-faq-list ak-fade">
+      <div class="ak-faq-item">
+        <div class="ak-faq-q">How fast do you deliver permit packages?<span class="ak-faq-icon">+</span></div>
+        <div class="ak-faq-a">Our standard turnaround is 24–48 hours for most permit packages. Rush delivery (same-day) is available for urgent projects. We've never missed a committed deadline.</div>
+      </div>
+      <div class="ak-faq-item">
+        <div class="ak-faq-q">Do you serve all 50 US states?<span class="ak-faq-icon">+</span></div>
+        <div class="ak-faq-a">Yes. We provide services across all 50 US states, Canada-wide, and throughout the United Kingdom — with full local code compliance and AHJ familiarity for each region.</div>
+      </div>
+      <div class="ak-faq-item">
+        <div class="ak-faq-q">What information do I need to get started?<span class="ak-faq-icon">+</span></div>
+        <div class="ak-faq-a">For permit packages: basic project details like site address, system size, and equipment specs. For CAD/BIM work: your existing drawings or design brief. We'll guide you through the rest.</div>
+      </div>
+      <div class="ak-faq-item">
+        <div class="ak-faq-q">Do you offer revisions if the AHJ requests changes?<span class="ak-faq-icon">+</span></div>
+        <div class="ak-faq-a">Absolutely. We stand behind every deliverable and provide free revisions on permit packages if the Authority Having Jurisdiction (AHJ) requests corrections. Your approval is our goal.</div>
+      </div>
+      <div class="ak-faq-item">
+        <div class="ak-faq-q">Can you handle large volumes of projects simultaneously?<span class="ak-faq-icon">+</span></div>
+        <div class="ak-faq-a">Yes. We routinely process high volumes for large installers, contractors, and national firms. We scale with your pipeline — bulk pricing is available for ongoing partners.</div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:40px" class="ak-fade">
+      <p style="color:#6b7280;margin-bottom:16px">Still have questions?</p>
+      <a href="./contact.html" class="ak-btn ak-btn-amber">Talk to Our Team</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ CTA BANNER ═══════════════════════ -->
+<section class="ak-cta-banner">
+  <div class="ak-container">
+    <div class="ak-cta-inner ak-fade">
+      <h2>Ready to Transform Your Business?</h2>
+      <p>Get permit-ready engineering documents delivered fast — guaranteed.</p>
+      <div class="ak-cta-btns">
+        <a href="./contact.html" class="ak-btn ak-btn-amber ak-btn-lg">Get a Free Quote</a>
+        <a href="tel:+12093261479" class="ak-btn ak-btn-outline ak-btn-lg">📞 +1 (209) 326-1479</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+<footer class="ak-footer">
+  <div class="ak-footer-border"></div>
+  <div class="ak-prefooter">
+    <div class="ak-container"><div class="ak-prefooter-inner">
+      <div><h3>Ready to get started?</h3><p>Get your permit package delivered in 24 hours.</p></div>
+      <div class="ak-prefooter-btns">
+        <a href="./contact.html" class="ak-btn ak-btn-amber">Get a Free Quote &rarr;</a>
+        <a href="tel:+12093261479" class="ak-btn ak-btn-outline">📞 Call Us</a>
+      </div>
+    </div></div>
+  </div>
+  <div class="ak-footer-main">
+    <div class="ak-container">
+      <div class="ak-footer-grid">
+        <div>
+          <img src="./images/logo-white.png" alt="Aekamber Solutions" class="ak-footer-logo">
+          <p class="ak-footer-brand-text">Professional engineering, design, and digital services tailored for B2B clients across USA, Canada, and UK.</p>
+          <div class="ak-social-row">
+            <a href="#" class="ak-social-btn" aria-label="LinkedIn">in</a>
+            <a href="#" class="ak-social-btn" aria-label="Twitter">𝕏</a>
+            <a href="#" class="ak-social-btn" aria-label="Facebook">f</a>
+          </div>
+        </div>
+        <div class="ak-footer-col">
+          <h4>Quick Links</h4>
+          <ul class="ak-footer-link-list">
+            <li><a href="./index.html">Home</a></li><li><a href="./services.html">Services</a></li>
+            <li><a href="./about.html">About Us</a></li><li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="ak-footer-col">
+          <h4>Our Services</h4>
+          <ul class="ak-footer-link-list">
+            <li><a href="./services.html">Solar PV Design</a></li><li><a href="./services.html">ESS Design</a></li>
+            <li><a href="./services.html">EV Charging</a></li><li><a href="./services.html">PE Stamp Services</a></li>
+            <li><a href="./services.html">CAD &amp; BIM</a></li><li><a href="./services.html">Digital Marketing</a></li>
+          </ul>
+        </div>
+        <div class="ak-footer-col">
+          <h4>Get in Touch</h4>
+          <a href="mailto:info@aekamber.com" class="ak-fc-item"><div class="ak-fc-icon">✉️</div><div><div class="ak-fc-sub">Email</div><div class="ak-fc-val">info@aekamber.com</div></div></a>
+          <a href="tel:+12093261479" class="ak-fc-item"><div class="ak-fc-icon">📞</div><div><div class="ak-fc-sub">Phone</div><div class="ak-fc-val">+1 (209) 326-1479</div></div></a>
+          <div class="ak-fc-item"><div class="ak-fc-icon">🌐</div><div><div class="ak-fc-sub">Serving</div><div class="ak-fc-val">USA • Canada • UK</div></div></div>
+        </div>
+      </div>
+      <div class="ak-footer-bottom">
+        <p>&copy; 2025 Aekamber Solutions. All rights reserved.</p>
+        <p style="color:rgba(255,255,255,0.2);font-size:12px">Engineering &middot; Design &middot; Digital &mdash; One Source.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══════════════════════════ FLOATING CTA ══════════════════════ -->
+<div class="ak-float" id="ak-float">
+  <a href="tel:+12093261479" class="ak-float-btn" title="Call Aekamber Solutions">
+    <span class="ak-float-phone">📞<span class="ak-float-dot"></span></span>
+    <span class="ak-hide-mob">+1 (209) 326-1479</span>
+  </a>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
